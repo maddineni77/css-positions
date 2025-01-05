@@ -1,0 +1,41 @@
+
+.box>p{
+    padding:20px;
+    background-color:red;
+    
+    
+
+}
+.section div>p{
+    background-color: green;
+    margin:15px;
+
+}
+.card-header~div p{
+    border:2px solid red;
+}
+.navbar>ul>li{
+    background-color: lightblue;
+}
+.header>h1{
+    margin-top:20px;
+    background-color: red;
+}
+.footer>span{
+    padding:10px;
+    
+}
+.main-content>div>p{
+    border:1px solid black;
+}
+.nav>ul>li{
+    background-color: red;
+    margin-right:15px;
+}
+.gallery {
+    background-color: lightgrey;
+}
+.container div>span{
+    border-radius:5px;
+    border-style:solid;
+}
