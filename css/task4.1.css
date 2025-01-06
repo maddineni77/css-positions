@@ -1,0 +1,30 @@
+
+.main{
+    background-color: blue;
+    width:100%;
+    
+
+}.HEAD{
+    width:100%;
+    
+    background-color:blue;
+    color:black;
+    display: inline-block;
+    position:fixed;
+padding:20px;
+z-index:1
+}
+.head1{
+    width:100%;
+
+    background-color:blue;
+    color:black;
+    display: inline-block;
+    position:absolute;
+
+left:90%;
+}
+.h2{
+    position:absolute;
+    padding:100px;
+}
