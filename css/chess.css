@@ -1,0 +1,33 @@
+  table tr:nth-child(odd) td:nth-child(odd){
+    background-color:black ;
+    color: white;
+    
+}
+table tr td:hover{
+    
+transition:  0.5s ease;
+
+
+}
+table tr td:hover{
+    transform: scale(1.1);
+    background-color:yellow;
+}
+
+
+table tr:nth-child(odd) td:nth-child(even){
+    font-size: larger;
+}
+
+
+table tr:nth-child(even) td:nth-child(even){
+    background-color: black;
+    color: white;
+}
+table tr:nth-child(even) td:nth-child(odd){
+    font-size: larger;
+}
+  table tr:nth-child(5) td,table tr:nth-child(6) td,table tr:nth-child(4) td,table tr:nth-child(3) td{
+
+    padding:60px
+}
