@@ -15,8 +15,8 @@ table tr td:hover{
 }
 
 
-table tr:nth-child(odd) td:nth-child(even){
-    font-size: larger;
+table tr:nth-child(1) td,table tr:nth-child(2) td,table tr:nth-child(7) td,table tr:nth-child(8) td{
+    font-size:xx-large;
 }
 
 
@@ -24,10 +24,33 @@ table tr:nth-child(even) td:nth-child(even){
     background-color: black;
     color: white;
 }
-table tr:nth-child(even) td:nth-child(odd){
-    font-size: larger;
-}
+
   table tr:nth-child(5) td,table tr:nth-child(6) td,table tr:nth-child(4) td,table tr:nth-child(3) td{
 
-    padding:60px
+    padding:40px;
+}
+.container{
+ padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container>a{
+    color: blue;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    text-decoration: none;
+    
+}
+.container>a:visited{
+    color:blueviolet;
+}
+.container>a:hover{
+    color:aqua
+}
+.container>a:active{
+    color:yellow;
+
 }
